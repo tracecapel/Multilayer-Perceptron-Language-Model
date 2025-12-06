@@ -3,11 +3,11 @@ Neural network designed for next word prediction. This model is designed to pred
 *Training Example* 
 Input sentence: "hello, my name is trace" 
 
-Pre-trained Prediction: "hello my name is <name>"
+Pre-trained Prediction: "hello my name is [name]"
 
 After 100 training epochs, the model learns: 
 
-"hello my name is <trace>".
+"hello my name is [trace]".
 
 It can also learn from larger amounts of text. 
 
@@ -17,7 +17,7 @@ Eagerly, a girl named Kim went hiking with her friends. They found a secret pass
 
 *Sample output generated after 100 epochs*
 
-eagerly a girl named kim <.> <hiking> <with> <her> <friends> <.> <they> <found> <a> <secret> <passageway> <under> <a> <big> <rock> <.> <curious> <they> <crawled> <through> <it> <and> <entered> <a> <magical> <world> <where> <all> <the> <animals> <talked> <.> <they> <learned> <that> <the> <animals> <had> <their> <own> <struggles> <but> <always> <found> <a> <way> <to> <be> <happy> 
+eagerly a girl named kim [.] [hiking] [with] [her] [friends] [.] [they] [found] [a] [secret] [passageway] [under] [a] [big] [rock] [.] [curious] [they] [crawled] [through] [it] [and] [entered] [a] [magical] [world] [where] [all] [the] [animals] [talked] [.] [they] [learned] [that] [the] [animals] [had] [their] [own] [struggles] [but] [always] [found] [a] [way] [to] [be] [happy] 
 
  
 As you can see, the model is good, but not perfect. It can acheive about 96% accuracy on trained data.  
