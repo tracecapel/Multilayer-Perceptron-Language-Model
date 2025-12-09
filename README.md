@@ -1,6 +1,5 @@
 
-How an MLP works:
-https://en.wikipedia.org/wiki/Multilayer_perceptron
+
 
 
 This Neural network is designed for next word prediction. This model is designed to predict the next word in a sentence given a set context window. For example, given the sentence "Hello, my name is" the model should predict "trace". With a context window of 4, the model can see 4 previous words to make its prediction, ie "hello my name is". Based on training, it learns word patterns and associations. 
@@ -14,6 +13,8 @@ Words are hashed and encoded into binary before being fed to the input layer as 
 The model then updates its inputs to correspond the the given input word(s). If context window is 4, the input will be 4 concanated binaries of each word.
 The model then computes its prediction (next word binary) by multiply the inputs by each weight and passed through a combination of activation functions including tanh and sigmoid with a softmax on the output layer.
 The correct prediction is then given to the network, and the network trains via backpropagating the error through the network.
+
+More detailed description of how MLP's work : https://en.wikipedia.org/wiki/Multilayer_perceptron
 
 
 
