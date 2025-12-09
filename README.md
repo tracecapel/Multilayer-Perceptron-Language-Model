@@ -1,4 +1,9 @@
-Neural network designed for next word prediction. This model is designed to predict the next word in a sentence given a set context window. For example, given the sentence "Hello, my name is" the model should predict "trace". With a context window of 4, the model can see 4 previous words to make its prediction, ie "hello my name is". Based on training, it learns word patterns and associations. 
+
+How an MLP works:
+https://en.wikipedia.org/wiki/Multilayer_perceptron
+
+
+This Neural network is designed for next word prediction. This model is designed to predict the next word in a sentence given a set context window. For example, given the sentence "Hello, my name is" the model should predict "trace". With a context window of 4, the model can see 4 previous words to make its prediction, ie "hello my name is". Based on training, it learns word patterns and associations. 
 
 *Training Example* 
 
