@@ -43,6 +43,10 @@ eagerly a girl named kim [.] [hiking] [with] [her] [friends] [.] [they] [found] 
 As you can see, the model is good, but not perfect. It can acheive about 96% accuracy on trained data.  
 
 
+**Model Limitations**
+While this model can accurately mimic training data, generally it is not the most ideal model choice for Natural Language Processing. This is mostly due to limited context- MLP's rely on fixed inputs, meaning they have no "memory". Obviously this is a big shortfall in language prediction, as only seeing a handful of words is not always sufficient. This is why models like RRN's, LSTM's, and transformers are preffered, because they have "memory" components. This is what transformer based LLM's like ChatGPT use.
+
+
 
 
 
